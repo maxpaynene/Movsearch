@@ -1,0 +1,91 @@
+header {
+	background:#2c3e50;
+	color:#fff;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: #000;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/back.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+}
+
+@media(min-width:768px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 26px;
+    }
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;   /*Todas las letras en mayuscula*/
+    font-family: Helvetica,Arial,sans-serif;  /*Tipos de latras FONT*/
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0 0 250px;   /*arriba abajo*/
+    font-size: 18px;
+    line-height: 1.0;
+}
+
+.text {    
+    text-align: center;
+}
+
+@font-face{
+    font-family:"marguerite";
+    src:url(../fonts/.ttf);
+}
+
+.font-personalizada{
+    text-transform: none; 
+    letter-spacing: 4px; 
+    text-transform: none;   
+}
+
